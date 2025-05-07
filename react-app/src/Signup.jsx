@@ -12,7 +12,8 @@ function Signup() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:3001/register', {
+        // axios.post('http://localhost:3001/register', {
+        axios.post('https://gleeful-biscotti-c80e99.netlify.app/register',{
             name,
             country,
             email,
